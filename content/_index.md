@@ -13,16 +13,16 @@ enableToc: false
 # Content Table:
 
 ## Sem 3
-- ### [DBMS](https://github.com/bionicop/Digital-Garden/blob/4d9af9383de27a0aa6d2c4a9de9fcb359d2faffc/Sem_3/DBMS/Classes_Notes/m1_syllabus.md)
-- ### [IT](/tree/hugo/content/notes/Sem_3/IT/IT_Index.md)
-- ### [Java OOPs](/tree/hugo/content/notes/Sem_3/Java_OOPs/Java_Index.md)
-- ### [Scilab](/tree/hugo/content/notes/Sem_3/Scilab/Scilab_Index.md)
+- ### [DBMS](/tree/hugo/content/notes/Sem_3/DBMS/Classes_Notes/m1_syllabus)
+- ### [IT](/tree/hugo/content/notes/Sem_3/IT/IT_Index)
+- ### [Java OOPs](/tree/hugo/content/notes/Sem_3/Java_OOPs/Java_Index)
+- ### [Scilab](/tree/hugo/content/notes/Sem_3/Scilab/Scilab_Index)
 
 ## Sem 4 (Under Construction🚧)
-- ### [Software Engineering](/tree/hugo/content/notes/Sem_4/Software_Engineering/Classes_Notes/Module_1/m1_syllabus.md)
-- ### [Cloud Computing](/tree/hugo/content/notes/Sem_4/Cloud_Computing/Classes_Notes/Module_1/m1_syllabus.md)
-- ### [Web Programming](/tree/hugo/content/notes/Sem_4/Web_Programming/Classes_Notes/Module_1/m1_syllabus.md)
-- ### [Data Analytics](/tree/hugo/content/notes/Sem_4/Data_Analytics/Classes_Notes/Module_1/m1_syllabus.md)
-- ### [Fundamentals of Computer Algorithms](/tree/hugo/content/notes/Sem_4/Fundamentals_of_Computer_Algorithms/Classes_Notes/Module_1/m1_syllabus.md)
+- ### [Software Engineering](/tree/hugo/content/notes/Sem_4/Software_Engineering/Classes_Notes/Module_1/m1_syllabus)
+- ### [Cloud Computing](/tree/hugo/content/notes/Sem_4/Cloud_Computing/Classes_Notes/Module_1/m1_syllabus)
+- ### [Web Programming](/tree/hugo/content/notes/Sem_4/Web_Programming/Classes_Notes/Module_1/m1_syllabus)
+- ### [Data Analytics](/tree/hugo/content/notes/Sem_4/Data_Analytics/Classes_Notes/Module_1/m1_syllabus)
+- ### [Fundamentals of Computer Algorithms](/tree/hugo/content/notes/Sem_4/Fundamentals_of_Computer_Algorithms/Classes_Notes/Module_1/m1_syllabus)
 
-[[/tree/hugo/content/notes/Sem_4/Fundamentals_of_Computer_Algorithms/Classes_Notes/Module_1/m1_syllabus.md|Procedure-Oriented Programming]]
+[[notes/Sem_3/DBMS/m1_syllabus|accredited investor]]
