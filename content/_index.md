@@ -1,5 +1,5 @@
 ---
-title: Digital Garden.
+title: 🍀 Digital Garden
 enableToc: false
 ---
 
@@ -8,7 +8,8 @@ enableToc: false
 
 # Who wrote this and why?
 - Well let's just keep that secret shall we ;)
-- Why you ask? hmmm well to learn and enjoy the learning and _not forget what I learned lol_ & maybe share to those who in need feel free to shout at me for writing soemthing wrong cause I am not so good at this *hehehe.* Hope you like it enjoy:
+- Why you ask? hmmm well to learn and enjoy the learning and _not forget what I learned lol_ & maybe share to those who in need feel free to shout at me for writing soemthing wrong cause I am not so good at this *hehehe.* 
+- Hope you like it enjoy :D
 
 # Content Table:
 
