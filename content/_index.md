@@ -13,7 +13,7 @@ enableToc: false
 # Content Table:
 
 ## Sem 3
-- ### [DBMS](/tree/hugo/content/notes/Sem_3/DBMS/Classes_Notes/m1_syllabus.md)
+- ### [DBMS](https://github.com/bionicop/Digital-Garden/blob/4d9af9383de27a0aa6d2c4a9de9fcb359d2faffc/Sem_3/DBMS/Classes_Notes/m1_syllabus.md)
 - ### [IT](/tree/hugo/content/notes/Sem_3/IT/IT_Index.md)
 - ### [Java OOPs](/tree/hugo/content/notes/Sem_3/Java_OOPs/Java_Index.md)
 - ### [Scilab](/tree/hugo/content/notes/Sem_3/Scilab/Scilab_Index.md)
