@@ -16,14 +16,12 @@ enableToc: false
 ## Sem 3
 - ### [DBMS](/tree/hugo/content/notes/Sem_3/DBMS/Classes_Notes/m1_syllabus)
 - ### [IT](/tree/hugo/content/notes/Sem_3/IT/IT_Index)
-- ### [Java OOPs](/tree/hugo/content/notes/Sem_3/Java_OOPs/Java_Index)
-- ### [Scilab](/tree/hugo/content/notes/Sem_3/Scilab/Scilab_Index)
+- ### [Java OOPs](/notes/Sem_3/Java_OOPs/Java_Index)
+- ### [Scilab](/notes/Sem_3/Scilab/Scilab_Index)
 
 ## Sem 4 (Under Construction🚧)
-- ### [Software Engineering](/tree/hugo/content/notes/Sem_4/Software_Engineering/Classes_Notes/Module_1/m1_syllabus)
-- ### [Cloud Computing](/tree/hugo/content/notes/Sem_4/Cloud_Computing/Classes_Notes/Module_1/m1_syllabus)
-- ### [Web Programming](/tree/hugo/content/notes/Sem_4/Web_Programming/Classes_Notes/Module_1/m1_syllabus)
-- ### [Data Analytics](/tree/hugo/content/notes/Sem_4/Data_Analytics/Classes_Notes/Module_1/m1_syllabus)
+- ### [Software Engineering](/notes/Sem_4/Software_Engineering/Classes_Notes/Module_1/m1_syllabus)
+- ### [Cloud Computing](/notes/Sem_4/Cloud_Computing/Classes_Notes/Module_1/m1_syllabus)
+- ### [Web Programming](/notes/Sem_4/Web_Programming/Classes_Notes/Module_1/m1_syllabus)
+- ### [Data Analytics](/notes/Sem_4/Data_Analytics/Classes_Notes/Module_1/m1_syllabus)
 - ### [Fundamentals of Computer Algorithms](/tree/hugo/content/notes/Sem_4/Fundamentals_of_Computer_Algorithms/Classes_Notes/Module_1/m1_syllabus)
-
-[[notes/Sem_3/DBMS/m1_syllabus|accredited investor]]
