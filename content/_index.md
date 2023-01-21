@@ -24,4 +24,4 @@ enableToc: false
 - ### [Cloud Computing](/notes/Sem_4/Cloud_Computing/Classes_Notes/Module_1/m1_syllabus)
 - ### [Web Programming](/notes/Sem_4/Web_Programming/Classes_Notes/Module_1/m1_syllabus)
 - ### [Data Analytics](/notes/Sem_4/Data_Analytics/Classes_Notes/Module_1/m1_syllabus)
-- ### [Fundamentals of Computer Algorithms](/tree/hugo/content/notes/Sem_4/Fundamentals_of_Computer_Algorithms/Classes_Notes/Module_1/m1_syllabus)
+- ### [Fundamentals of Computer Algorithms](/notes/Sem_4/Data_Analytics/Classes_Notes/Module_1/m1_syllabus)
