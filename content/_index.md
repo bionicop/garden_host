@@ -14,8 +14,8 @@ enableToc: false
 # Content Table:
 
 ## Sem 3
-- ### [DBMS](/content/notes/Sem_3/DBMS/Classes_Notes/m1_syllabus.md)
-- ### [IT](content\notes\Sem_3\IT\IT_Index.md)
+- ### [DBMS](/notes/Sem_3/DBMS/Classes_Notes/m1_syllabus)
+- ### [IT](/notes/Sem_3/IT/IT_Index)
 - ### [Java OOPs](/notes/Sem_3/Java_OOPs/Java_Index)
 - ### [Scilab](/notes/Sem_3/Scilab/Scilab_Index)
 
