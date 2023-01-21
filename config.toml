@@ -32,3 +32,7 @@ enableGitInfo = true
         publishDate = ["publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true
+        hardWraps = true # this will handle line breaks correctly when uploading to HTML (without the need to add double space at the end of a line)
+[params]
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "dark"
