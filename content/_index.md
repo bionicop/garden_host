@@ -14,8 +14,8 @@ enableToc: false
 # Content Table:
 
 ## Sem 3
-- ### [DBMS](bionicop/Digital-Garden/blob/4059bc4d4e60660389e715bb020983f287620e0a/Sem_3/DBMS/Classes_Notes/m1_syllabus)
-- ### [IT](/tree/hugo/content/notes/Sem_3/IT/IT_Index)
+- ### [DBMS](/content/notes/Sem_3/DBMS/Classes_Notes/m1_syllabus.md)
+- ### [IT](content\notes\Sem_3\IT\IT_Index.md)
 - ### [Java OOPs](/notes/Sem_3/Java_OOPs/Java_Index)
 - ### [Scilab](/notes/Sem_3/Scilab/Scilab_Index)
 
