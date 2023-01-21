@@ -1,4 +1,4 @@
-name: Jacky Zhao
+name: BiONiC
 enableToc: true
 openToc: false
 enableLinkPreview: true
@@ -12,7 +12,7 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/bionicop/Digital-Garden/tree/a8d26c8197b8f9e0015762a4aa75ab62578759e3
+GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
@@ -24,3 +24,5 @@ page_title:
 links:
   - link_name: GitHub
     link: https://github.com/bionicop
+favicon:
+  - { rel: "shortcut icon", href: "icon.png", type: "image/png" }
