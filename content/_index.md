@@ -14,7 +14,7 @@ enableToc: false
 # Content Table:
 
 ## Sem 3
-- ### [DBMS](/tree/hugo/content/notes/Sem_3/DBMS/Classes_Notes/m1_syllabus)
+- ### [DBMS](/4059bc4d4e60660389e715bb020983f287620e0a/Sem_3/IT/Classes_Notes/Module_1/m1_syllabus)
 - ### [IT](/tree/hugo/content/notes/Sem_3/IT/IT_Index)
 - ### [Java OOPs](/notes/Sem_3/Java_OOPs/Java_Index)
 - ### [Scilab](/notes/Sem_3/Scilab/Scilab_Index)
