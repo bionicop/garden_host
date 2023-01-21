@@ -1,6 +1,3 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/bionicop/Digital-Garden
-[submodule "content/notes"]
+[submodule "content"]
 	path = content/notes
-	url = https://github.com/bionicop/Digital-Garden
+	url = git@github.com:bionicop/Digital-Garden.git
