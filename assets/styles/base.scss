@@ -1,9 +1,14 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Inter:wght@400;600;700');
+@import url('https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css');
+// keeping for reference
+// @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz@8..30&display=swap');
+
 :root {
-  --font-body: "Source Sans Pro";
-  --font-header: "Inter";
-  --font-mono: "Fira Code"
+  --font-body: 'Atkinson Hyperlegible', 'Piazzolla, serif;', 'Open Sans', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, PingFang SC, Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial !important; //"Source Sans Pro";
+  --font-header: 'Iosevka Web','Atkinson Hyperlegible',  'Inter';
+  --font-mono: 'Iosevka Web', 'Fira Code', 'Fira Code', 'Open Sans';
 }
 
 // typography
@@ -20,13 +25,27 @@ html {
   }
 }
 
-.singlePage {
+.singlePageOrig {
   padding: 4em 30vw;
   @media all and (max-width: 1200px) {
     padding: 25px 5vw;
   }
 }
 
+.singlePage {
+  display: flex;
+  justify-content: center;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding-top: 5vh;
+  // padding: 4em 30vw;
+  @media all and (max-width: 1200px) {
+    // padding: 25px 5vw;
+    flex-direction:column;
+    margin-left:5vw;
+    margin-right:5vw
+  }
+}
 
 body {
   margin: 0;
@@ -66,7 +85,14 @@ p, ul, text, a, tr, td, li, ol, ul {
 }
 
 tbody, li, p {
-  line-height: 1.5em;
+  // line-height: 1.45em;
+  // line-height: 1.45em;
+  line-height: 1.6em;
+  font-size: 1.1em;
+  // font-size: 18px;
+  font-optical-sizing: auto;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+
 }
 
 .mainTOC {
@@ -89,7 +115,7 @@ tbody, li, p {
 
 #TableOfContents > ol {
   counter-reset: section;
-  margin-left: 0;
+  margin-left: 0em;
   padding-left: 1.5em;
   & > li {
     counter-increment: section;
@@ -142,7 +168,7 @@ sup {
 }
 
 blockquote {
-  margin-left: 0;
+  margin-left: 0em;
   border-left: 3px solid var(--secondary);
   padding-left: 1em;
   transition: border-color 0.2s ease;
@@ -183,7 +209,7 @@ article {
     margin-top: 2em;
     font-size: 2em;
   }
-
+  
   & > .meta {
     margin: 0 0 1em 0;
     opacity: 0.7;
@@ -194,18 +220,19 @@ article {
 
     &.internal-link {
       text-decoration: none;
-      background-color: transparentize(#8f9fa9, 0.85);
+      
+      background-color: transparentize(#D27E99, 0.85);
       padding: 0 0.1em;
       margin: auto -0.1em;
       border-radius: 3px;
 
       &.broken {
         opacity: 0.5;
-        background-color: transparent;
+        background-color: transparent; 
       }
     }
   }
-
+  
   & p {
     overflow-wrap: anywhere;
   }
@@ -295,15 +322,42 @@ footer {
   text-align: center;
   & ul {
     padding-left: 0;
-  }
+  } 
 }
 
 hr {
-  width: 100%;
-  margin: 2em auto;
-  height: 1px;
-  border: none;
-  background-color: var(--outlinegray);
+  width: 25%;
+  margin: 4em auto;
+  height: 2px;
+  border-radius: 1px;
+  border-width: 0;
+  color: var(--dark);
+  background-color: var(--dark);
+}
+
+.backlinks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding-left: 1rem;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  padding-right: 1vw;
+  padding-top: 5vh;
+  min-width: 10rem;
+  & > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    & > li {
+      margin: 0.5em 0;
+      padding: 0.25em 1em;
+      border: var(--outlinegray) 1px solid;
+      border-radius: 5px
+    }
+  }
 }
 
 .page-end {
@@ -319,26 +373,11 @@ hr {
     flex: 1 0 0;
   }
 
-  & > .backlinks-container {
-    & > ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-
-      & > li {
-        margin: 0.5em 0;
-        padding: 0.25em 1em;
-        border: var(--outlinegray) 1px solid;
-        border-radius: 5px
-      }
-    }
-  }
-
   & #graph-container {
     border: var(--outlinegray) 1px solid;
     border-radius: 5px;
     box-sizing: border-box;
-    min-height: 250px;
+    min-height: 400px;
     margin: 0.5em 0;
 
     & > svg {
@@ -382,6 +421,7 @@ header {
     & > p {
       display: inline;
       padding: 0 1.5em 0 2em;
+      word-wrap: normal;
     }
   }
 
@@ -507,7 +547,7 @@ header {
 
   & > .section {
     display: flex;
-    align-items: center;
+    align-items: center; 
 
     @media all and (max-width: 600px) {
       & .tags {
@@ -519,18 +559,18 @@ header {
       font-weight: 700;
       margin: 0;
     }
-
+    
     & p {
       margin: 0;
       padding-right: 1em;
-      flex-basis: 6em;
+      flex-basis: 6em; 
     }
   }
 
   & h3 {
     opacity: 1;
     font-weight: 700;
-    margin: 0;
+    margin: 0em;
   }
 
   & .meta {
@@ -568,7 +608,7 @@ header {
   transition: opacity 0.2s ease, transform 0.2s ease;
   user-select: none;
   overflow-wrap: anywhere;
-  box-shadow: 6px 6px 36px 0 rgba(0,0,0,0.25);
+  box-shadow: 6px 6px 36px 0px rgba(0,0,0,0.25);
 
   @media all and (max-width: 600px) {
     display: none !important;
@@ -586,7 +626,7 @@ header {
     margin: 0.25rem 0;
   }
 
-  & .meta {
+  & > .meta {
     margin-top: 0.25rem;
     opacity: 0.5;
     font-family: var(--font-mono);
@@ -596,7 +636,7 @@ header {
   & > p {
     margin: 0;
     padding: 0.5rem 0;
-  }
+  } 
 
   & > p, & > a {
     font-size: 1rem;
@@ -617,7 +657,3 @@ header {
   }
 }
 
-mark {
-  background-color: var(--highlighted);
-  color: var(--gray);
-}

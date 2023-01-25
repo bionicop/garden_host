@@ -1,13 +1,14 @@
-baseURL = "https://bionicop.github.io/garden_host/"
+baseURL = "https://brain.sspaeti.com"
 languageCode = "en-us"
-googleAnalytics = "G-XYFD95KB4J"
+googleAnalytics = "G-PH3D1NNYSE"
 relativeURLs = false
 disablePathToLower = true
-ignoreFiles = [
-    "/content/private/*",
-]
+# ignoreFiles = [
+#     "/content/templates/*",
+#     "/content/private/*",
+# ]
 summaryLength = 20
-paginate = 100
+paginate = 10
 enableGitInfo = true
 
 [markup]

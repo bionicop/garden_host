@@ -1,9 +1,9 @@
-# Quartz
+# My Public Second Brain.
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+See on [brain.sspaeti.com](https://brain.sspaeti.com).
 
-1. Extremely fast natural-language search
-2. Customizable and hackable design based on Hugo
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in CJK + Latex Support and Admonition-style callouts
-5. Support for both Markdown Links and Wikilinks
+This is a fork of the [Quartz](https://github.com/jackyzha0/quartz) repo. I added some additional features such as:
+* tagging with #publish will automatically copy the note from my private second brain in [Obsidian](https://obsidian.md) to this public second brain. You find the python scrips in [utils](utils). 
+* It also converts the first header (`# my title`) into the frontmatter (metadata of each note) and removes it so that Quartz needs it.
+
+The content/notes itself are not published in this repo, only on [brain.sspaeti.com](https://brain.sspaeti.com).

@@ -6,29 +6,26 @@
 {{partial "search.html" .}}
 <div class="singlePage">
     <!-- Begin actual content -->
-    {{partial "header.html" .}}
     <article>
+    {{partial "header.html" .}}
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
       <p class="meta">
-        {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
-          {{ partial "github.html" . }}
+          Last updated {{ partial "date-fmt.html" .}} 
+          <!-- {{ partial "github.html" . }} -->
       </p>
       <ul class="tags">
           {{ range (.GetTerms "tags") }}
-          <li><a href="{{ .Permalink }}">
-          {{if (eq $.Site.Language.Lang "en")}}
-            {{ .LinkTitle | humanize }}
-          {{else}}
-            {{ .LinkTitle }}
-          {{end}}
-            </a>
-           </li>
+          <li><a href="{{ .Permalink }}">{{ .LinkTitle | humanize }}</a></li>
           {{ end }}
       </ul>
       {{partial "toc.html" .}}
       {{partial "textprocessing.html" . }}
+      {{partial "footer.html" .}}
     </article>
-    {{partial "footer.html" .}}
+    <div class="backlinks-container">
+        {{partial "backlinks.html" .}}
+    </div>   
 </div>
 </body>
+
 </html>
