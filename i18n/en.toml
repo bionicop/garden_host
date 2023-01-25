@@ -60,6 +60,3 @@ other = "Search for something..."
 
 [toc]
 other = "Table of Contents"
-
-[copyright]
-other = "<a href=\"https://sspaeti.com\">{{ .name }} </a>, © {{ .year }}"
