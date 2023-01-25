@@ -2,8 +2,6 @@
 public
 resources
 .idea
-# content/*
-# !content/_index.md
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 linkmap
