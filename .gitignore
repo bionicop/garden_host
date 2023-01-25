@@ -7,6 +7,3 @@ resources
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 linkmap
-content/*
-
-git submodule add https://github.com/bionicop/Digital-Garden ./public

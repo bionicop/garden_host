@@ -1,5 +1,4 @@
-name: sspaeti.com
-website: https://sspaeti.com
+name: BiONiC
 enableToc: true
 openToc: true
 enableLinkPreview: true
@@ -12,15 +11,13 @@ enableFooter: true
 enableContextualBacklinks: true
 enableRecentNotes: true
 enableGitHubEdit: false
-GitHubLink: https://github.com/sspaeti/second-brain-public/tree/hugo/content
+GitHubLink: https://github.com/bionicop/garden_host/tree/hugo/content
 enableSemanticSearch: false
 operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
 description:
-  This is the public version of my SecondBrain
+  This web site will consist of Notes & Codes from my College in digital format :D
 page_title:
-  "🧠 Second Brain"
+  "🍀Digital Garden"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/sspaeti
   - link_name: Github
-    link: https://github.com/sspaeti
+    link: https://github.com/bionicop
