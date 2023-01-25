@@ -17,7 +17,7 @@ jobs:
         uses: jackyzha0/hugo-obsidian@v2.18
         with:
           index: true
-          input: content
+          input: https://github.com/bionicop/Digital-Garden/tree/602a5e6fa5ab292ea10dd2edba121f91f29ae4e4
           output: assets/indices
           root: .
 
